@@ -18,7 +18,7 @@ body{
     gap: 20px;
 }
 
-.generales-s{
+.generales2{
     border-radius: 1rem;
     box-shadow: 0 4px 8px lightgray;
     background-color: white;
@@ -196,12 +196,12 @@ hr{
         flex-direction: column;
     }
 
-    .generales-s {
+    .generales2 {
         width: 100%;
         margin-bottom: 1rem;
     }
 
-    .generales-s img{
+    .generales2 img{
         display: flex;
         margin-left: 50rem;
         margin-top: -3rem;

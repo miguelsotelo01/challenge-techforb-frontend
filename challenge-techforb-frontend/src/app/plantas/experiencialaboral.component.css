@@ -9,18 +9,18 @@
 
 /* Ajuste del contenedor principal */
 .row {
-    margin-left: calc(80px + 20px); /* Margen ajustado según el ancho de la sidebar */
-    margin-right: 20px; /* Espaciado a la derecha */
+    margin-left: calc(80px + 20px); /* Margen ajustado para el ancho de la sidebar */
+    margin-right: 20px; /* Espaciado a la derecha de la sidebar*/
     background-color: #ffffff; /* Color de fondo */
 }
 
-/* Estilos del contenedor principal */
+/* Estilos del 2do contenedor principal */
 .contenido {
+    display: flex; 
+    flex-direction: column;  
     width: 100%; 
     height: auto;
     padding: 40px;
-    display: flex; 
-    flex-direction: column;   
 }
 
 /* Estilo del título principal */
@@ -52,7 +52,7 @@
     display: flex;
     gap: 10px;
     border: none;
-    width: calc(100% - 100px); /* Ajustado para el espacio disponible */
+    width: calc(100% - 100px); /* Ajuste para que tome el espacio disponible */
 }
 
 .section {
@@ -67,10 +67,9 @@
 .listatrabajos {
     padding: 10px;
     display: flex;
-    flex-wrap: wrap; /* Permite el ajuste de elementos en múltiples filas */
+    flex-wrap: wrap; 
     gap: 10px;
-    border: 1px solid gray;
-    width: calc(100% - 100px); /* Ajustado para el espacio disponible */
+    width: calc(100% - 100px);
     background-color: #fff;
 }
 

@@ -14,11 +14,21 @@
             <div class="section">Acciones</div>
     </div>
     <div class="listatrabajos"  *ngFor="let exp of experiencia" >
-                <div class="parrafo">{{exp.puesto}}</div>
-                <div class="parrafo"> {{exp.nombreEmpresa}}</div>
-                <div class="parrafo">{{exp.inicio}} </div>
-                <div class="parrafo">{{exp.finalizacion}}</div>
-                <div class="parrafo">{{exp.descripcion}}</div>
+                <div class="parrafo">
+                    {{exp.puesto}}
+                </div>
+                <div class="parrafo"> 
+                    {{exp.nombreEmpresa}}
+                </div>
+                <div class="parrafo">
+                    {{exp.inicio}} 
+                </div>
+                <div class="parrafo">
+                    {{exp.finalizacion}}
+                </div>
+                <div class="parrafo">
+                    {{exp.descripcion}}
+                </div>
                 <div class="acciones" id="eliminar-editar-trabajos" *ngIf="isAdmin">                    
                     <button (click)="onOpenModal(exp,'edit')" type="button" class="botones_contenido" data-target="updateExperienciaModal">
                     <i class="fa-solid fa-file-pen"></i>

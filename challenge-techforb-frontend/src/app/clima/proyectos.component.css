@@ -26,7 +26,7 @@ body{
     overflow: auto;
 }
 
-.generales-s{
+.generales2{
     box-sizing: border-box;
     border-radius: 1rem;
     box-shadow: 0 4px 8px lightgray;
@@ -180,7 +180,7 @@ hr{
     justify-content: space-around;
 }
 .mat-focus-indicator {
-    position: static !important; /* Cambia position a static para evitar el comportamiento relativo */
+    position: static !important; /* Cambia position a static para evitar el comportamiento relativo de material*/
   }
 
 @media (max-width: 1024px) {
@@ -208,12 +208,12 @@ hr{
         flex-direction: column;
     }
 
-    .generales-s {
+    .generales2 {
         width: 100%;
         margin-bottom: 1rem;
     }
 
-    .generales-s img{
+    .generales2 img{
         display: flex;
         margin-left: 50rem;
         margin-top: -3rem;
