@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    position: relative;
+}
+
+.container{
+    margin-left: 130px;
+    padding: 0 2rem;
+}
+.title{
+    margin-top: 20px;
+}
+.generales{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    gap: 20px;
+}
+
+.generales-s{
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px lightgray;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.texto-espacio {
+    margin-right: 60px;
+    color: black;
+}
+
+.check{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: rgb(131, 240, 131);
+}
+
+.exclamación{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: lightgreen;
+}
+
+.peligro{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color:lightcoral;
+}
+
+.exit{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: lightsalmon;
+}
+
+.panelPaises{
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin-left: 1.5rem; */
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.panelItems{
+    border-radius: 1rem;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* margin-left: 1.5rem; */
+    margin-bottom: 3rem;
+}
+
+.header-panel-paises{
+    display: inline;
+    margin-left: 1rem;
+}
+
+.caracteristicas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2 auto;
+    /* border: 1px green solid; */
+}
+
+.caracteristicas-titulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2 auto;
+}
+
+.item {
+    flex: 1;
+    margin: 1rem;
+    text-align: center;
+    /* border: 1px red solid; */
+}
+
+hr{
+    color: gray;
+    width: 1283px;
+}
+
+.numeros-cards-ultimas{
+    /* border: 1px black solid; */
+    display: flex;
+}
+
+.item-por-numero{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.check-item{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: rgb(131, 240, 131);
+    height: 15px;
+    margin: 5px;
+}
+
+.exclamación-item{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: rgb(239, 250, 84);
+    height: 15px;
+    margin: 5px;
+}
+
+.peligro-item{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: rgb(252, 56, 56);
+    height: 15px;
+    margin: 5px;
+}
+
+.default-item{
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: rgb(233, 233, 233);
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentacion-mobile, .hr-responsivo, .nombre-planta-responsivo{
+    display: none;
+}
+
+.bandera{
+    width: 30%;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.accionesEE-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 1024px) {
+
+    .container {
+        padding: 0 1rem;
+        margin-left: 50px;
+    }
+
+    .presentacion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentacion-mobile{
+        display: block;
+    }
+
+    .hr-responsivo{
+        display: block;
+        width: 800px;
+    }
+
+    .generales {
+        flex-direction: column;
+    }
+
+    .generales-s {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .generales-s img{
+        display: flex;
+        margin-left: 50rem;
+        margin-top: -3rem;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .texto-espacio {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .panelPaises {
+        width: 100%;
+    }
+
+    .panelItems, .presentacion, .nombre-planta{
+        display: none;
+    }
+
+    .caracteristicas {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .item {
+        margin: 1rem;
+        padding: 2rem;
+    }
+
+    .numeros-cards-ultimas {
+        flex-wrap: wrap;
+    }
+
+    .item-por-numero {
+        margin: 0.5rem;
+    }
+
+    .caracteristicas-titulos{
+        display: none;
+    }
+
+    .nombre-planta-responsivo{
+        display: flex;
+        margin-top: 1rem;
+        color: gray;
+        /* background-color: red; */
+    }
+
+    .bandera{
+        width: 30%;
+        padding: 10px;
+    }
+    
+    .bandera-pais{
+        display: flex;
+        /* border: 3px green solid; */
+    }
+
+}

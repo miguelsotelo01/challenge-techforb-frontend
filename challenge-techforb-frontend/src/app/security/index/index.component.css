@@ -1,0 +1,14 @@
+/*estilos generales del index*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #E9F1F4;
+}
+/*estilos contenedor principal*/
+.fondo-index {
+    overflow: invisible;
+    background: #E9F1F4;
+    width: 100%;
+}
